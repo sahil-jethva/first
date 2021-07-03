@@ -40,32 +40,7 @@ class MyHomePage extends StatelessWidget {
               color: Colors.red,
               height: 400,
               width: wsize / 1.5,
-              child: Expanded(
-                child: Row(
-                  children: [
-                    Expanded(
-                      flex: 1,
-                      child: Text("Hiiiiiiiii",
-                          style: TextStyle(color: Colors.white),
-                          overflow: TextOverflow.ellipsis),
-                    ),
-                    Expanded(
-                      flex: 3,
-                      child: Container(
-                        color: Colors.black,
-                      ),
-                    ),
-                    Expanded(
-                      flex: 2,
-                      child: Center(
-                        child: Container(
-                          color: Colors.white,
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
+              child: Expanded(),
             ),
             Container(
               color: Colors.green,
